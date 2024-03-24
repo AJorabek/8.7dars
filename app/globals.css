@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.margin {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.hero_content {
+  width: 100%;
+  max-width: 885px;
+  padding: 100px 10px 137px 100px;
+  background-color: #154444;
+}
+.hero-title {
+  width: 100%;
+  max-width: 671px;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: 3px;
+}
+.hero_desc {
+  width: 100%;
+  max-width: 488px;
+  color: white;
+  font-size: 20px;
+}
+.btn1 {
+  width: 100%;
+  max-width: 172px;
+  padding: 15px 25px;
+  background-color: #fff;
+  color: #154444;
+}
+.btn1:hover {
+  background-color: #154444;
+  color: white;
+}
+
+.hero_img {
+  width: 100%;
+  max-width: 411px;
+}
+
+.popular_desc {
+  width: 100%;
+  max-width: 819px;
+}
+
+.btn2 {
+  width: 100%;
+  max-width: 100px;
+  background-color: #154444;
+  color: white;
+  padding: 5px 15px;
+}
+
+.btn2:hover{
+  background-color: #fff;
+  color: #154444;
+}
+
+
+.room_li{
+  padding: 15px 65px;
+  border: 1px solid gray;
+}
+.room_li:hover{
+  background-color: #154444;
+  color: white;
+}
+
+
+@media screen and (max-width: 750px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
